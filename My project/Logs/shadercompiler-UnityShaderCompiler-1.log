@@ -229,3 +229,4 @@ Cmd: compileComputeKernel
 Cmd: compileComputeKernel
   insize=2849 file=Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/RenderingLayerMask/TraceRenderingLayerMask.urtshader kernel=MainRayGenShader ppOnly=0 stripLineD=0 buildPlatform=24 km=<UNITY_VERSION=60000046> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=glcore flags=4096 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=35389
 
+Cmd: shutdown
