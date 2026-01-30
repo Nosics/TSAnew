@@ -2,4 +2,5 @@
 
 The provo high project for the 2025-26 TSA video game competition
 
-this is a test push.
+Coding conventions:
+- camelCase
