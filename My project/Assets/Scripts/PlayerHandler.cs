@@ -2,15 +2,23 @@ using UnityEngine;
 
 public class NewMonoBehaviourScript : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public float moveSpeed = 5f;
+    public Rigidbody2D rb;
+    Vector2 movement;
 
-    // Update is called once per frame
+    void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
+    
     void Update()
     {
-        
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
+    }
+    void FixedUpdate()
+    {
+        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 }
+
