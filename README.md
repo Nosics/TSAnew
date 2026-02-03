@@ -10,3 +10,7 @@ Coding conventions:
 - camelCase
 - Present-tense commit messages
 - Per-contributor branches (for now)
+
+# Additional information
+
+Because of the way that we started the project, our gitignore didn't work, meaning we had to restart the .git of the project on 02/03/2026. You will not see git history before this date, though progress was made
