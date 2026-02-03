@@ -1,0 +1,4 @@
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.dylib filter=lfs diff=lfs merge=lfs -text
+My[[:space:]]project/Logs/AssetImportWorker0.log filter=lfs diff=lfs merge=lfs -text
+My[[:space:]]project/Logs/* filter=lfs diff=lfs merge=lfs -text
