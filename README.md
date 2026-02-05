@@ -8,7 +8,7 @@ The main goal of the project is to replicate the magic once felt by retro game f
 
 Coding conventions:
 - camelCase
-- Present-tense commit messages
+- Present-tense commit messages (ex. update readme, NOT updated readme)
 - Per-contributor branches (for now)
 
 # Additional information
