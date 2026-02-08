@@ -4,6 +4,8 @@ The provo high project for the 2025-26 TSA video game competition
 
 This project, made with unity and C#, is a top-down zelda-style rpg with retro elements.
 
+It takes on an 8-bit like art style, where the hero fights against furniture as your main enemy.
+
 The main goal of the project is to replicate the magic once felt by retro game fans of the past, but putting a modern twist on a more traditional genre.
 
 Coding conventions:
